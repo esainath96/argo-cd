@@ -497,7 +497,7 @@ func (g GitHubAppCreds) getAppTransport() (*ghinstallation.AppsTransport, error)
 	}
 
 	// Create a new GitHub transport
-	c := GetRepoHTTPClient(baseUrl, g.insecure, g, g.proxy)
+	c := GetRepoHTTPClient(baseUrl, g.insecure, g, g.proxy, g.noProxy)
 	itr, err := ghinstallation.NewAppsTransport(c.Transport,
 		g.appID,
 		[]byte(g.privateKey),
