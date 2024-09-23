@@ -65,6 +65,7 @@ Currently, the following organizations are **officially** using Argo CD:
 1. [Chime](https://www.chime.com)
 1. [Cisco ET&I](https://eti.cisco.com/)
 1. [Cloud Posse](https://www.cloudposse.com/)
+2. [CloudRaft](https://cloudraft.io/)
 1. [Cloud Scale](https://cloudscaleinc.com/)
 1. [CloudScript](https://www.cloudscript.com.br/)
 1. [CloudGeometry](https://www.cloudgeometry.io/)
